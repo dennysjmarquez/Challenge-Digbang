@@ -1,3 +1,73 @@
 .simulator {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.wrap {
+    padding: 55px 55px 77px;
+    background-color: #003B67;
+    width: 479px;
+
+}
+
+.deadline {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00355D;
+}
+
+.deadlineText1 {
+    padding: 25px 0 25px 29px;
+}
+
+.deadlineText2 {
+    padding-right: 29px;
+    font-size: 35px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btns {
+    height: 58px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+
+.btn1 {
+    width: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #fff;
+    background-color: #17AA8D;
+}
+
+.btn2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0B548B;
+    font-weight: 500;
+    margin-left: 10px;
 }
